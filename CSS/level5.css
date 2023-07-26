@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#maindivtag{
+    width: 1392px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#foottag{
+    height: 100px;
+    text-align: center;
+    height: 300px;
+}
+a{
+    text-decoration: none;
+}
+.outter{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    display: flex;
+    top: 10px;
+    left: 10px;
+}

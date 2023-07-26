@@ -1,0 +1,18 @@
+div{
+height: 200px;
+width: 200px;
+background-color: aquamarine;
+
+border: 2px solid black;
+transition-property: all;
+transition:font-size 2s ease-in-out 0.2s;
+}
+div:hover{
+    background-color: rgb(61, 61, 9);
+    color: antiquewhite;
+    font-size: 20px;
+}
+div:active{
+    background-color: blue;
+    color: antiquewhite ;
+} 
